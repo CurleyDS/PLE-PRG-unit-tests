@@ -98,7 +98,7 @@ Nu kun je deze functies in je testbestand importeren en ze testen
 
 ```javascript
 import { describe, expect, it } from 'vitest';
-import { add, subtract } from '../math.js';
+import { sum, subtract } from '../js/math.js';
 
 describe('The Sum function', () => {
     it('testing with 2 arguments, positive numbers', () => {
