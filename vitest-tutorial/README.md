@@ -101,15 +101,19 @@ import { describe, expect, it } from 'vitest';
 import { sum, subtract } from '../js/math.js';
 
 describe('The Sum function', () => {
-    it('testing with 2 arguments, positive numbers', () => {
+    it('testing sum with 2 arguments, positive numbers', () => {
         expect(sum(1, 4)).toBe(5);
     });
-    it('testing with 2 arguments, negative numbers', () => {
+    it('testing sum with 2 arguments, negative numbers', () => {
         expect(sum(1, -4)).toBe(-3);
     });
 
-    it('testing with 3 arguments', () => {
-        expect(subtract(1, 4, 5)).toBe(10);
+    it('testing substraction with 2 arguments', () => {
+        expect(subtract(5, 4)).toBe(1);
+    });
+
+    it('testing substraction with 3 arguments', () => {
+        expect(subtract(1, 4, 5)).toBe(-8);
     });
 });
 ```
