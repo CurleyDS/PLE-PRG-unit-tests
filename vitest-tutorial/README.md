@@ -23,7 +23,7 @@ Wil je de test slechts één keer uitvoeren zonder in watch mode te blijven, dan
 Voer de tests uit met:
 
 ```bash
-npx run test
+npm run test
 ```
 
 Het volgende bericht vertelt je dat er geen testbestanden zijn gevonden. En de map 'tests' wordt automatisch meegenomen in het zoekpatroon. 
